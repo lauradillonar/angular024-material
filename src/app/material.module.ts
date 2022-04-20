@@ -4,10 +4,14 @@ import { CommonModule } from '@angular/common';
 /* Material Modules */
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatCardModule} from '@angular/material/card';
 
 const MaterialComponents = [
   BrowserAnimationsModule,
-  MatButtonModule
+  MatButtonModule,
+  MatToolbarModule,
+  MatCardModule
 ];
 
 @NgModule({

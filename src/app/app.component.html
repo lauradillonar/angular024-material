@@ -1,7 +1,18 @@
-<div class="center">
-  <button mat-raised-button color="primary">Mi botón</button>
-  <button mat-fab color="accent">Mi botón</button>
-  <button mat-stroked-button color="warn">Mi botón</button>
+<div class="container">
+  <div class="row mb-3">
+    <mat-toolbar color="primary"> Portfolio </mat-toolbar>
+  </div>
+  <div class="row">
+    <button mat-raised-button color="primary" class="col-2">Mi botón</button>
+    <button mat-fab color="accent" class="col-2">Mi botón</button>
+    <button mat-stroked-button color="warn" class="col-2">Mi botón</button>
+  </div>
+  <div class="row">
+    <mat-card class="col-md-6">UNO</mat-card>
+    <mat-card class="col-md-6">DOS</mat-card>
+    <mat-card class="col-md-6">TRES</mat-card>
+    <mat-card class="col-md-6">CUATRO</mat-card>
+  </div>
 </div>
 
 <router-outlet></router-outlet>
